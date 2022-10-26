@@ -25,7 +25,7 @@ void carro::correr(){
 	cout<<"El "<<nombre<<" Corre a 200km/h\n"<<endl;
 }
 void carro::girar(){
-	cout<<"\nEl "<<nombre<<"Gira con gran precision\n"<<endl;
+	cout<<"\nEl "<<nombre<<" Gira con gran precision\n"<<endl;
 }
 
 int main(){
