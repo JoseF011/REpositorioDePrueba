@@ -1,0 +1,50 @@
+
+body {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+a{
+  color:black;
+}
+
+h1{
+  background-color:skyblue;
+  text-align:center;
+  color:#fff;
+  font-size:x-large;
+  font-family:comic;
+  padding:15px;
+  box-shadow:0 0 40px skyblue;
+  }
+  h2{
+    background-color:blueviolet;
+    text-align:center;
+    color:#fff;
+    font-size:x-large;
+    font-family:comic;
+    padding:15px;
+    box-shadow:0 0 40px skyblue;
+    }

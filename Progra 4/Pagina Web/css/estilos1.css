@@ -1,0 +1,69 @@
+header {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background:palevioletred;
+  }
+
+  h1{
+ 
+    text-align:left;
+    color:salmon;
+    font: size 20px;;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:15px;
+
+    }
+    #palabras{
+        margin-right: 10px;
+        display: block;
+        display:flex;
+        background: #524e81;
+      }
+          #portada,#somos{
+      padding: 5px; 
+          }
+          #MV{
+            margin-right: 10px;
+            display: block;
+            display:flex;
+
+          }
+              #Mision,#Vision{
+          padding: 5px; 
+              }
+
+              #KW{
+                margin-right: 10px;
+                display: block;
+                display:flex;
+              }
+                  #Kofuku,#World{
+              padding: 2px;
+              background:#bfe5ef; 
+                  }
+      

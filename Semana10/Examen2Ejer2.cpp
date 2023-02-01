@@ -22,14 +22,17 @@ void permutations(string str, int i, int n)
         // retroceder (restaurar la string a su estado original)
         swap(str[i], str[j]);
          system("cls");
+        
     }
 }
  
 int main()
 {
+	while(true){
+	
     string str = "12345";
     permutations(str, 0, str.length());
-  
+}
     return 0;
     
 }

@@ -1,0 +1,84 @@
+header {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background:palevioletred;
+}
+
+h1{
+  text-align: center;
+}
+
+#imagenes{
+margin-right: 10px;
+display: block;
+display:flex;
+}
+
+ #Anime,#libro,#juego, #Kpop{
+   padding: 5px; 
+   margin:4%;
+   box-shadow:0 0 40px cornflowerblue;
+background-position:center;
+}
+
+
+h2{
+  width:30%;
+  height:30%;
+  font-family:comic;
+  padding: 9px;
+  color:black;
+  text-align:center;
+  line-height:5px;
+  margin:10px;
+  overflow:hidden;
+  }
+  a{
+    color:black;
+  }
+
+  h1{
+    background-color:skyblue;
+    text-align:center;
+    color:#fff;
+    font-size:x-large;
+    font-family:comic;
+    padding:15px;
+    box-shadow:0 0 40px skyblue;
+    }
+#KW{
+  margin-right: 10px;
+  display: block;
+  display:flex;
+}
+    #Kofuku,#World{
+padding: 2px;
+background:#bfe5ef; 
+    }
+
+  

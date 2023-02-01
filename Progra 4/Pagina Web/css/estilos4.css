@@ -1,0 +1,152 @@
+
+header {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background:palevioletred;
+  }
+  
+
+
+
+    
+    h1{
+    background-color:skyblue;
+    text-align:center;
+    color:black;
+    font-size:x-large;
+    font-family:comic;
+    padding:15px;
+    }
+    
+    span{
+    color:#FFFFFF;
+    }
+    
+   
+    
+    
+    
+    
+    
+    /*------Secciones--------------------------------------*/
+    
+    .top{
+    
+    width:100%;
+    
+    margin:100%;
+    
+    display:flex;
+    justify-content:justify;
+    
+    flex-direction:column;
+    
+    }
+    
+    
+    
+    
+    .articulo{
+    
+    height:550px;
+    
+    width:50%;
+    
+    margin:10px;
+    
+    padding:15px;
+    
+    text-align:center;
+    
+    flex-grow:1;
+    
+    display:flex;
+    
+    flex-wrap:wrap;
+    
+    }
+    
+    h2{
+    text-align:center;
+    color:#000000;
+    font-size:25px;
+    font-family:fantasy;
+    padding:15px;
+    }
+    
+
+    
+    
+    p{
+    text-align:justify;
+    color:#FFFFFF;
+    font-size:100%;
+    font-family:times;
+    letter-spacing:2px;
+    word-spacing:3px;
+    }
+    
+    
+    
+   
+    
+    
+    
+    
+    footer{
+    
+    margin-top:50px;
+    
+    width:100%;
+    
+    height:200px;
+    
+    font-family:fantasy;
+    text-shadow:1px 1px 1px #000000;
+    text-shadow:rgb(0, 0, 255);
+    
+    }
+    
+    h4{
+    background-color:#000000;
+    text-align:center;
+    color:#0000ff;
+    font-size:110%;
+    font-family:comic;
+    padding:15px;
+    }
+    
+    #KW{
+        margin-right: 10px;
+        display: block;
+        display:flex;
+      }
+          #Kofuku,#World{
+      padding: 2px;
+      background:#bfe5ef; 
+          }
